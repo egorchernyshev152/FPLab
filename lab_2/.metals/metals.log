@@ -787,3 +787,50 @@ WARNING: Unmatched cancel notification for request id 17766
 2024.11.24 22:20:51 INFO  time: compiled lab_2 in 0.66s
 но€б. 24, 2024 10:21:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.11.24 22:24:42 INFO  Shutting down server
+2024.11.24 22:24:42 INFO  shutting down Metals
+2024.11.24 22:24:42 INFO  Shut down connection with build server.
+2024.11.24 22:24:42 INFO  Shut down connection with build server.
+2024.11.24 22:24:42 INFO  Exiting server
+2024.11.24 22:25:07 INFO  Started: Metals version 1.4.1 in folders 'C:\FP\FPLab\lab_2' for client Visual Studio Code 1.95.3.
+2024.11.24 22:25:08 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.24 22:25:08 INFO  no build target found for C:\FP\FPLab\lab_2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.24 22:25:09 INFO  Attempting to connect to the build server...
+2024.11.24 22:25:09 INFO  Found a Bloop server running
+2024.11.24 22:25:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 22:25:10 INFO  Attempting to connect to the build server...
+2024.11.24 22:25:10 INFO  Found a Bloop server running
+2024.11.24 22:25:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 22:25:11 INFO  time: Connected to build server in 2.85s
+2024.11.24 22:25:11 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.24 22:25:12 INFO  time: Imported build in 0.1s
+2024.11.24 22:25:12 INFO  running doctor check
+2024.11.24 22:25:12 INFO  java targets: lab_2-test, lab_2-build, lab_2
+2024.11.24 22:25:17 INFO  Disconnecting from Bloop session...
+2024.11.24 22:25:17 INFO  Shut down connection with build server.
+2024.11.24 22:25:17 INFO  Shut down connection with build server.
+2024.11.24 22:25:17 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.24 22:25:17 INFO  Attempting to connect to the build server...
+2024.11.24 22:25:17 INFO  No running Bloop server found, starting one.
+2024.11.24 22:25:20 INFO  time: indexed workspace in 8.62s
+2024.11.24 22:25:21 INFO  Starting compilation server
+но€б. 24, 2024 10:25:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\FP\FPLab\lab_2\.metals\.reports\metals-full\2024-11-24\r_compiler-error_(lab_2)_22-25-21-909.md
+но€б. 24, 2024 10:25:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\FP\FPLab\lab_2\.metals\.reports\metals-full\2024-11-24\r_compiler-error_(lab_2)_22-25-21-963.md
+но€б. 24, 2024 10:25:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\FP\FPLab\lab_2\.metals\.reports\metals-full\2024-11-24\r_compiler-error_(lab_2)_22-25-21-995.md
+2024.11.24 22:25:21 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+но€б. 24, 2024 10:25:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\FP\FPLab\lab_2\.metals\.reports\metals-full\2024-11-24\r_compiler-error_(lab_2)_22-25-24-041.md
+2024.11.24 22:25:24 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+2024.11.24 22:25:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 22:25:29 INFO  Attempting to connect to the build server...
+2024.11.24 22:25:29 INFO  Found a Bloop server running
+2024.11.24 22:25:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 22:25:30 INFO  time: Connected to build server in 11s
+2024.11.24 22:25:30 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.24 22:25:30 INFO  time: Imported build in 0.17s
+2024.11.24 22:25:30 INFO  running doctor check
+2024.11.24 22:25:30 INFO  java targets: lab_2-test, lab_2-build, lab_2
+2024.11.24 22:25:32 INFO  time: indexed workspace in 2.45s

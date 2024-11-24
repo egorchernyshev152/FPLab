@@ -48,7 +48,6 @@ def goodEnoughPasswordTry(password: String): Either[Boolean, String] = {
 
 //..2_3..
 def readPassword(): Future[String] = {
-  // Чтение пароля (асинхронно)
   Future {
     printf("Введите ваш пароль: ")
     readLine()
