@@ -1,0 +1,789 @@
+2024.11.24 18:28:38 INFO  Started: Metals version 1.4.1 in folders 'C:\FP\FPLab\lab_2' for client Visual Studio Code 1.95.3.
+2024.11.24 18:28:39 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.24 18:28:42 INFO  running 'C:\Users\toorr\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\toorr\AppData\Local\Temp\metals13972083641337546054\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.24 18:28:43 INFO  [info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17.0.13)
+2024.11.24 18:28:45 INFO  [info] loading settings for project lab_2-build-build from metals.sbt ...
+2024.11.24 18:28:45 INFO  [info] loading project definition from C:\FP\FPLab\lab_2\project\project
+2024.11.24 18:28:47 INFO  [info] loading settings for project lab_2-build from metals.sbt ...
+2024.11.24 18:28:47 INFO  [info] loading project definition from C:\FP\FPLab\lab_2\project
+2024.11.24 18:28:49 INFO  [success] Generated .bloop\lab_2-build.json
+2024.11.24 18:28:49 INFO  [success] Total time: 2 s, completed 24 РЅРѕСЏР±. 2024 Рі., 18:28:49
+2024.11.24 18:28:51 INFO  [info] loading settings for project lab_2 from build.sbt ...
+2024.11.24 18:28:51 INFO  [info] set current project to hello-world (in build file:/C:/FP/FPLab/lab_2/)
+2024.11.24 18:28:51 INFO  [success] Generated .bloop\lab_2.json
+2024.11.24 18:28:51 INFO  [success] Generated .bloop\lab_2-test.json
+2024.11.24 18:28:51 INFO  [success] Total time: 0 s, completed 24 РЅРѕСЏР±. 2024 Рі., 18:28:51
+2024.11.24 18:28:51 INFO  time: ran 'sbt bloopInstall' in 9.79s
+2024.11.24 18:28:51 INFO  Attempting to connect to the build server...
+2024.11.24 18:28:51 INFO  Found a Bloop server running
+2024.11.24 18:28:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 18:28:52 INFO  Attempting to connect to the build server...
+2024.11.24 18:28:52 INFO  Found a Bloop server running
+2024.11.24 18:28:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 18:28:52 INFO  time: Connected to build server in 0.94s
+2024.11.24 18:28:52 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.24 18:28:52 INFO  running doctor check
+2024.11.24 18:28:52 INFO  java targets: lab_2-test, lab_2-build, lab_2
+2024.11.24 18:28:55 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.24 18:29:00 INFO  time: indexed workspace in 7.67s
+2024.11.24 18:29:13 INFO  time: code lens generation in 1.63s
+2024.11.24 18:29:21 INFO  running 'C:\Users\toorr\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\toorr\AppData\Local\Temp\metals16536892537159407670\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.24 18:29:22 INFO  [info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17.0.13)
+2024.11.24 18:29:22 INFO  [info] loading settings for project lab_2-build-build from metals.sbt ...
+2024.11.24 18:29:24 INFO  [info] loading project definition from C:\FP\FPLab\lab_2\project\project
+2024.11.24 18:29:24 INFO  [info] loading settings for project lab_2-build from metals.sbt ...
+2024.11.24 18:29:24 INFO  [info] loading project definition from C:\FP\FPLab\lab_2\project
+2024.11.24 18:29:27 INFO  [success] Generated .bloop\lab_2-build.json
+2024.11.24 18:29:27 INFO  [success] Total time: 2 s, completed 24 РЅРѕСЏР±. 2024 Рі., 18:29:27
+2024.11.24 18:29:28 INFO  [info] loading settings for project lab_2 from build.sbt ...
+2024.11.24 18:29:28 INFO  [info] set current project to hello-world (in build file:/C:/FP/FPLab/lab_2/)
+2024.11.24 18:29:28 INFO  [success] Generated .bloop\lab_2-test.json
+2024.11.24 18:29:28 INFO  [success] Generated .bloop\lab_2.json
+2024.11.24 18:29:28 INFO  [success] Total time: 1 s, completed 24 РЅРѕСЏР±. 2024 Рі., 18:29:29
+2024.11.24 18:29:29 INFO  time: ran 'sbt bloopInstall' in 7.93s
+2024.11.24 18:29:29 INFO  Disconnecting from Bloop session...
+2024.11.24 18:29:29 INFO  Shut down connection with build server.
+2024.11.24 18:29:29 INFO  Shut down connection with build server.
+2024.11.24 18:29:29 INFO  Attempting to connect to the build server...
+2024.11.24 18:29:29 INFO  Found a Bloop server running
+2024.11.24 18:29:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 18:29:29 INFO  Attempting to connect to the build server...
+2024.11.24 18:29:29 INFO  Found a Bloop server running
+2024.11.24 18:29:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\FP\FPLab\lab_2\project\.metals\bsp.trace.json or C:\Users\toorr\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.24 18:29:29 INFO  time: Connected to build server in 0.88s
+2024.11.24 18:29:29 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.24 18:29:29 INFO  running doctor check
+2024.11.24 18:29:29 INFO  java targets: lab_2-test, lab_2-build, lab_2
+2024.11.24 18:29:32 INFO  time: indexed workspace in 1.88s
+2024.11.24 18:29:52 INFO  compiling lab_2 (1 scala source)
+2024.11.24 18:29:52 INFO  time: compiled lab_2 in 0.38s
+2024.11.24 18:56:14 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+2024.11.24 18:56:15 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+2024.11.24 18:56:16 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+2024.11.24 18:56:17 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+2024.11.24 18:56:19 WARN  Could not find semantic tokens for: file:///C:/FP/FPLab/lab_2/src/main/scala/Main.scala
+нояб. 24, 2024 6:56:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+нояб. 24, 2024 6:56:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+нояб. 24, 2024 6:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 267
+нояб. 24, 2024 6:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+нояб. 24, 2024 7:01:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 839
+нояб. 24, 2024 7:02:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 889
+2024.11.24 19:02:56 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:02:56 INFO  time: compiled lab_2 in 0.29s
+2024.11.24 19:03:26 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:03:26 INFO  time: compiled lab_2 in 0.48s
+2024.11.24 19:03:46 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:03:46 INFO  time: compiled lab_2 in 0.49s
+нояб. 24, 2024 7:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1139
+нояб. 24, 2024 7:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1143
+нояб. 24, 2024 7:04:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1184
+нояб. 24, 2024 7:04:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1185
+2024.11.24 19:04:49 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:04:49 INFO  time: compiled lab_2 in 0.42s
+нояб. 24, 2024 7:06:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1412
+2024.11.24 19:09:42 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:09:42 INFO  time: compiled lab_2 in 0.54s
+2024.11.24 19:14:04 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:14:04 INFO  time: compiled lab_2 in 0.87s
+2024.11.24 19:14:55 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:14:55 INFO  time: compiled lab_2 in 0.53s
+нояб. 24, 2024 7:31:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2572
+нояб. 24, 2024 7:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2575
+2024.11.24 19:32:12 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:32:12 INFO  time: compiled lab_2 in 0.55s
+2024.11.24 19:32:47 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:32:47 INFO  time: compiled lab_2 in 0.44s
+2024.11.24 19:33:29 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:33:29 INFO  time: compiled lab_2 in 0.58s
+2024.11.24 19:34:06 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:34:06 INFO  time: compiled lab_2 in 0.46s
+2024.11.24 19:34:12 INFO  time: compiled lab_2 in 22ms
+нояб. 24, 2024 7:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3063
+нояб. 24, 2024 7:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3064
+нояб. 24, 2024 7:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3065
+нояб. 24, 2024 7:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3069
+нояб. 24, 2024 7:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3066
+нояб. 24, 2024 7:34:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3068
+2024.11.24 19:38:32 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:38:32 INFO  time: compiled lab_2 in 0.42s
+2024.11.24 19:38:45 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:38:45 INFO  time: compiled lab_2 in 0.43s
+2024.11.24 19:39:07 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:39:07 INFO  time: compiled lab_2 in 0.45s
+2024.11.24 19:57:34 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:57:34 INFO  time: compiled lab_2 in 0.36s
+2024.11.24 19:58:04 INFO  compiling lab_2 (1 scala source)
+2024.11.24 19:58:04 INFO  time: compiled lab_2 in 0.63s
+2024.11.24 20:08:06 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:08:06 INFO  time: compiled lab_2 in 0.18s
+2024.11.24 20:08:26 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:08:26 INFO  time: compiled lab_2 in 0.19s
+2024.11.24 20:08:31 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:08:31 INFO  time: compiled lab_2 in 0.51s
+2024.11.24 20:14:12 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:14:12 INFO  time: compiled lab_2 in 0.26s
+2024.11.24 20:14:18 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:14:18 INFO  time: compiled lab_2 in 0.17s
+нояб. 24, 2024 8:19:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5925
+2024.11.24 20:19:23 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:19:23 INFO  time: compiled lab_2 in 0.49s
+нояб. 24, 2024 8:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5986
+2024.11.24 20:19:47 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 20:19:47 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:19:47 INFO  time: compiled lab_2 in 0.4s
+2024.11.24 20:20:04 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:20:04 INFO  time: compiled lab_2 in 0.31s
+2024.11.24 20:20:24 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:20:24 INFO  time: compiled lab_2 in 0.19s
+2024.11.24 20:21:03 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:21:03 INFO  time: compiled lab_2 in 0.17s
+2024.11.24 20:21:18 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:21:18 INFO  time: compiled lab_2 in 0.16s
+2024.11.24 20:21:22 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:21:22 INFO  time: compiled lab_2 in 0.16s
+2024.11.24 20:31:48 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:31:48 INFO  time: compiled lab_2 in 0.54s
+нояб. 24, 2024 8:32:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7796
+2024.11.24 20:32:46 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:32:46 INFO  time: compiled lab_2 in 0.38s
+2024.11.24 20:34:00 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:34:00 INFO  time: compiled lab_2 in 0.4s
+2024.11.24 20:36:17 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:36:17 INFO  time: compiled lab_2 in 0.71s
+2024.11.24 20:37:09 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:37:09 INFO  time: compiled lab_2 in 0.54s
+2024.11.24 20:38:24 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:38:24 INFO  time: compiled lab_2 in 0.4s
+2024.11.24 20:40:21 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:40:21 INFO  time: compiled lab_2 in 0.58s
+2024.11.24 20:43:52 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:43:52 INFO  time: compiled lab_2 in 0.29s
+нояб. 24, 2024 8:44:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8600
+2024.11.24 20:44:35 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:44:35 INFO  time: compiled lab_2 in 0.38s
+2024.11.24 20:45:19 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:45:19 INFO  time: compiled lab_2 in 0.63s
+2024.11.24 20:46:43 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:46:43 INFO  time: compiled lab_2 in 0.54s
+2024.11.24 20:47:15 INFO  time: compiled lab_2 in 12ms
+2024.11.24 20:47:54 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:47:54 INFO  time: compiled lab_2 in 0.27s
+2024.11.24 20:48:04 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:48:04 INFO  time: compiled lab_2 in 0.29s
+2024.11.24 20:48:49 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:48:49 INFO  time: compiled lab_2 in 0.26s
+2024.11.24 20:48:52 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:48:52 INFO  time: compiled lab_2 in 0.21s
+2024.11.24 20:48:53 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:48:53 INFO  time: compiled lab_2 in 0.23s
+2024.11.24 20:49:19 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:49:19 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 20:50:15 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:50:15 INFO  time: compiled lab_2 in 0.36s
+2024.11.24 20:50:44 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:50:44 INFO  time: compiled lab_2 in 0.21s
+2024.11.24 20:50:55 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:50:55 INFO  time: compiled lab_2 in 0.31s
+2024.11.24 20:51:03 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:51:03 INFO  time: compiled lab_2 in 0.26s
+2024.11.24 20:52:50 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:52:50 INFO  time: compiled lab_2 in 0.11s
+2024.11.24 20:52:55 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:52:55 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 20:53:33 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:53:33 INFO  time: compiled lab_2 in 0.31s
+нояб. 24, 2024 8:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10428
+2024.11.24 20:57:16 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:57:16 INFO  time: compiled lab_2 in 0.28s
+2024.11.24 20:57:27 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:57:27 INFO  time: compiled lab_2 in 0.29s
+2024.11.24 20:59:08 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 20:59:08 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:59:08 INFO  time: compiled lab_2 in 0.24s
+2024.11.24 20:59:26 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 20:59:26 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:59:26 INFO  time: compiled lab_2 in 0.21s
+2024.11.24 20:59:30 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 20:59:30 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:59:30 INFO  time: compiled lab_2 in 0.2s
+2024.11.24 20:59:46 INFO  compiling lab_2 (1 scala source)
+2024.11.24 20:59:46 INFO  time: compiled lab_2 in 0.2s
+2024.11.24 21:00:01 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:00:01 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:00:01 INFO  time: compiled lab_2 in 0.22s
+2024.11.24 21:00:13 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:00:13 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:00:13 INFO  time: compiled lab_2 in 0.12s
+2024.11.24 21:00:28 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:00:28 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:00:28 INFO  time: compiled lab_2 in 0.25s
+2024.11.24 21:00:47 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:00:47 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:00:47 INFO  time: compiled lab_2 in 0.19s
+2024.11.24 21:01:05 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:01:05 INFO  time: compiled lab_2 in 93ms
+2024.11.24 21:01:10 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:01:10 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:01:10 INFO  time: compiled lab_2 in 0.19s
+2024.11.24 21:01:20 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:01:20 INFO  time: compiled lab_2 in 0.12s
+2024.11.24 21:01:47 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:01:47 INFO  time: compiled lab_2 in 0.13s
+2024.11.24 21:01:57 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:01:57 INFO  time: compiled lab_2 in 0.31s
+2024.11.24 21:03:14 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:03:14 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 21:03:33 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:03:33 INFO  time: compiled lab_2 in 99ms
+2024.11.24 21:03:43 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:03:43 INFO  time: compiled lab_2 in 0.2s
+2024.11.24 21:04:02 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:04:02 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:04:02 INFO  time: compiled lab_2 in 0.2s
+2024.11.24 21:04:49 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:04:49 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:04:49 INFO  time: compiled lab_2 in 0.23s
+2024.11.24 21:04:57 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:04:57 INFO  time: compiled lab_2 in 0.26s
+нояб. 24, 2024 9:08:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12120
+2024.11.24 21:08:50 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:08:50 INFO  time: compiled lab_2 in 0.39s
+нояб. 24, 2024 9:09:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12173
+2024.11.24 21:09:10 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:09:10 INFO  time: compiled lab_2 in 0.37s
+нояб. 24, 2024 9:10:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12566
+2024.11.24 21:10:56 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:10:56 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 21:11:26 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:11:26 INFO  time: compiled lab_2 in 0.34s
+2024.11.24 21:20:17 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:20:17 INFO  time: compiled lab_2 in 0.2s
+2024.11.24 21:21:48 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:21:48 INFO  time: compiled lab_2 in 0.16s
+2024.11.24 21:22:45 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:22:45 INFO  time: compiled lab_2 in 0.31s
+нояб. 24, 2024 9:23:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\FP\FPLab\lab_2\.metals\.reports\metals-full\2024-11-24\r_compiler-error_(lab_2)_21-23-02-296.md
+нояб. 24, 2024 9:24:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13600
+2024.11.24 21:24:35 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:24:35 INFO  time: compiled lab_2 in 0.43s
+2024.11.24 21:25:51 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:25:51 INFO  time: compiled lab_2 in 0.4s
+2024.11.24 21:27:57 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:27:57 INFO  time: compiled lab_2 in 0.36s
+2024.11.24 21:29:46 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:29:46 INFO  time: compiled lab_2 in 0.32s
+2024.11.24 21:31:50 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:31:50 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 21:32:29 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:32:29 INFO  time: compiled lab_2 in 0.67s
+2024.11.24 21:32:54 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:32:54 INFO  time: compiled lab_2 in 0.26s
+нояб. 24, 2024 9:33:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14828
+нояб. 24, 2024 9:33:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14983
+нояб. 24, 2024 9:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15049
+2024.11.24 21:34:29 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:34:29 INFO  time: compiled lab_2 in 0.75s
+2024.11.24 21:34:37 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:34:37 INFO  time: compiled lab_2 in 0.29s
+2024.11.24 21:34:45 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:34:45 INFO  time: compiled lab_2 in 0.27s
+2024.11.24 21:34:52 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:34:52 INFO  time: compiled lab_2 in 0.43s
+2024.11.24 21:35:49 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:35:49 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 21:35:58 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:35:58 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:35:58 INFO  time: compiled lab_2 in 0.42s
+2024.11.24 21:36:04 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:36:04 INFO  time: compiled lab_2 in 0.35s
+2024.11.24 21:37:29 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:37:29 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 21:39:05 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:39:05 INFO  time: compiled lab_2 in 0.7s
+2024.11.24 21:39:26 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:39:26 INFO  time: compiled lab_2 in 0.34s
+2024.11.24 21:40:28 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:40:28 INFO  time: compiled lab_2 in 0.44s
+2024.11.24 21:40:43 ERROR C:\FP\FPLab\lab_2\src\main\scala\Main.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop$3(ScalaToplevelMtags.scala:966)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptWhileIndented(ScalaToplevelMtags.scala:980)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:365)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:947)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.24 21:40:43 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:40:43 INFO  time: compiled lab_2 in 0.26s
+2024.11.24 21:41:16 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:41:16 INFO  time: compiled lab_2 in 0.4s
+нояб. 24, 2024 9:42:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 2934, end 2957, length 2955
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 2934, end 2957, length 2955
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 2934, end 2957, length 2955
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 24, 2024 9:42:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 2934, end 2957, length 2955
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 2934, end 2957, length 2955
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 2934, end 2957, length 2955
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 24, 2024 9:42:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15862
+2024.11.24 21:43:36 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:43:36 INFO  time: compiled lab_2 in 0.15s
+2024.11.24 21:44:45 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:44:45 INFO  time: compiled lab_2 in 0.13s
+нояб. 24, 2024 9:44:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16365
+2024.11.24 21:44:51 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:44:51 INFO  time: compiled lab_2 in 0.12s
+2024.11.24 21:44:56 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:44:56 INFO  time: compiled lab_2 in 0.41s
+нояб. 24, 2024 9:45:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16561
+2024.11.24 21:46:19 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:46:19 INFO  time: compiled lab_2 in 0.4s
+2024.11.24 21:47:04 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:47:04 INFO  time: compiled lab_2 in 0.15s
+2024.11.24 21:47:07 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:47:07 INFO  time: compiled lab_2 in 0.14s
+2024.11.24 21:47:08 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:47:08 INFO  time: compiled lab_2 in 0.14s
+2024.11.24 21:47:20 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:47:20 INFO  time: compiled lab_2 in 0.32s
+нояб. 24, 2024 9:47:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16958
+2024.11.24 21:47:38 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:47:38 INFO  time: compiled lab_2 in 0.38s
+2024.11.24 21:49:10 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:49:10 INFO  time: compiled lab_2 in 0.36s
+2024.11.24 21:50:02 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:50:02 INFO  time: compiled lab_2 in 0.29s
+нояб. 24, 2024 9:50:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17470
+2024.11.24 21:50:56 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:50:56 INFO  time: compiled lab_2 in 0.5s
+2024.11.24 21:51:30 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:51:30 INFO  time: compiled lab_2 in 0.36s
+нояб. 24, 2024 9:52:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17750
+нояб. 24, 2024 9:52:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17766
+2024.11.24 21:53:16 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:53:16 INFO  time: compiled lab_2 in 0.3s
+2024.11.24 21:53:24 INFO  compiling lab_2 (1 scala source)
+2024.11.24 21:53:24 INFO  time: compiled lab_2 in 0.32s
+2024.11.24 22:20:51 INFO  compiling lab_2 (1 scala source)
+2024.11.24 22:20:51 INFO  time: compiled lab_2 in 0.66s
+нояб. 24, 2024 10:21:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

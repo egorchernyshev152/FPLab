@@ -64,3 +64,8 @@
 2024.11.24 18:22:51 INFO  time: compiled lab_1 in 0.63s
 но€б. 24, 2024 6:24:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.11.24 18:28:00 INFO  Shutting down server
+2024.11.24 18:28:00 INFO  shutting down Metals
+2024.11.24 18:28:00 INFO  Shut down connection with build server.
+2024.11.24 18:28:00 INFO  Shut down connection with build server.
+2024.11.24 18:28:00 INFO  Exiting server

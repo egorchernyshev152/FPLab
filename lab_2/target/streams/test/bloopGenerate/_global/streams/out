@@ -1,0 +1,4 @@
+[debug] [lab_2-test] Classpath dependencies List()
+[debug] [lab_2-test] Dependencies from configurations List(lab_2)
+[debug] Bloop wrote the configuration of project 'lab_2-test' to 'C:\FP\FPLab\lab_2\.bloop\lab_2-test.json'
+[success] Generated .bloop\lab_2-test.json
